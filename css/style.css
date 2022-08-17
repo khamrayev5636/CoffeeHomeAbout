@@ -1604,8 +1604,7 @@ body {
 
 /* ================================= ABOUT PAGE START ============================== */
 
-.about {
-}
+
 
 .about__wrapper {
     background-image: url("../image/about-hero-bg-img.jpg");
@@ -1764,20 +1763,14 @@ body {
 }
 
 
-.commit {
-}
-.container {
-}
-.commit__wrapper {
-}
+
 .commit__image {
     border-radius: 10px;
     margin-bottom: 48px;
     max-width: 327px;
     height: 400px;
 }
-.commit__info {
-}
+
 .commit__title {
     font-weight: 900;
     font-size: 32px;
@@ -2292,10 +2285,7 @@ body {
 /* ===================== STATE START ============= */
 
 
-.state {
-}
-.container {
-}
+
 .state__title {
     font-weight: 900;
     font-size: 24px;
@@ -2319,8 +2309,7 @@ body {
 .state__image {
     margin-bottom: 47px;
 }
-.state__item-info {
-}
+
 .state__info-title {
     font-weight: 900;
     font-size: 28px;
