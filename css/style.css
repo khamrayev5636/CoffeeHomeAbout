@@ -316,7 +316,7 @@ body {
 }
 
 
-/* ==================== Min-width 390 start ============================== */
+/* ==================== Min-width 423 start ============================== */
 
 @media only screen and (min-width: 423px) {
     .hero__title {
@@ -2070,7 +2070,7 @@ body {
         max-width: 279px;
         width: 100%;
     }
-
+    
     .quality {
         margin-bottom:  120px;
     }
@@ -2335,56 +2335,56 @@ span {
 
 
 @media only screen and (min-width: 730px) {
-
+    
     .state__list  {
         display: flex;
         justify-content: space-between;
         margin-bottom: 144px;
     }
-
+    
     .state__info-title {
         font-size: 24px;
     }
-
+    
     .state__title {
         text-align: start;
     }
-
+    
     .state__item {
         margin: 0;
         align-items: flex-start;
     }
-
+    
     span {
         text-align: start;
     }
-
+    
     .state__info-title {
         text-align: start;
     }
-
+    
     .state__image {
         margin-right: auto;
     }
-
-
-
+    
+    
+    
 }
 
 /* ==================================== 1100 ======================== */
 
 
 @media only screen and (min-width: 1100px)  {
-
+    
     .state__info-title {
         font-size: 32px;
     }
-
-
+    
+    
     .state__title {
         padding-left: 85px;
     }
-
+    
     .state__list {
         margin-bottom: 168px;
         padding-left: 85px;
@@ -2398,6 +2398,842 @@ span {
 
 
 /* ================================= ABOUT PAGE END ============================== */
+
+
+
+
+
+/* ================================= PLAN PAGE START ============================== */
+
+.plan__wrapper {
+    background-image: url("../image/plan-hero-bg-img-phone.jpg");
+}
+
+/*  =================== 320 ====================== */
+
+@media only screen and (min-width: 320px) {
+    
+    
+    .plan {
+        margin-bottom: 120px;
+    }
+    
+    
+    
+    .plan__info-title {
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+        color: #FEFCF7;
+        margin-bottom: 22px;
+    }
+    
+    .plan__info-text {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        text-align: center;
+        color: #FEFCF7;
+        opacity: 0.8;
+    }
+    
+    
+}
+
+
+/* ========================== 375 ============================== */
+
+
+@media only screen and (min-width: 375px) {
+    
+    
+    .plan__wrapper {
+        background-image: url("../image/plan-hero-bg-img-tablet.jpg");
+    }
+    
+    .plan__info {
+        width: 300px;  
+    }
+    
+    .plan__info-text {
+        text-align: justify;
+    }
+    
+    .plan__info-title {
+        text-align: start;
+    }
+    
+}
+
+
+/* ========================== 600 ============================== */
+
+
+@media only screen and (min-width: 600px) {
+    
+    .plan__info {
+        width: 350px;
+        /* padding-left: 20px; */
+    }
+    
+    
+    .plan__info-title {
+        font-size: 48px;
+        line-height: 48px;
+    }
+    
+    .plan__info-text {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    
+    
+}
+
+
+@media only screen and (min-width: 718px) {
+    
+    .plan__wrapper {
+        background-image: url("../image/plan-hero-bg-img-desktop.jpg");
+    }
+    
+    
+    .plan__info {
+        width: 400px;
+    }
+}
+
+
+
+@media only screen and (min-width: 1110px) {
+    
+    .plan__info {
+        margin-left: 40px;
+    }
+    
+    
+}
+
+
+/*  ==================================== Plan about start  ============================== */
+
+
+@media only screen and (min-width: 320px) {
+    .plan__list {
+        background: #2C343E;
+        border-radius: 10px;
+        width: 100%; 
+        padding: 64px 24px 30px;
+    }
+    
+    .work__plan {
+        margin-bottom: 120px;
+    }
+    
+    .plan__container{
+        padding: 0;
+    }
+    
+    .plan__subtitle {
+        font-family: 'Fraunces 9pt';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 32px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    .plan__txt {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
+
+
+
+/* =========================================== 698 =================================== */
+
+
+@media only screen and (min-width: 698px) {
+    
+    .plan__subtitle {
+        font-size: 32px;
+        text-align: start;
+        width: 215px;
+    }
+    
+    .plan__list {
+        padding-top: 200px;
+    }
+    
+    
+    .plan__txt {
+        text-align: start;
+    }
+    
+    .plan__line {
+        position: relative;
+        top: 100px;
+        margin-left: 24px;
+    }
+}
+
+
+/* ============================== 1000 ============================ */
+
+
+@media only screen and (min-width: 1000px) {
+    
+    .plan__line {
+        background-image: url("../image/linebig.png");
+        top: 150px;
+    }
+    
+    .plan__list {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
+    .plan__container {
+        max-width: 1280px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 24px;
+    }
+    
+    
+    .plan__subtitle {
+        font-size: 38px;
+    }
+    
+}
+
+
+/* =============================== 1100 ================================ */
+
+
+@media only screen and (min-width: 1200px) {
+    
+    .plan__line {
+        margin-left: 92px;
+    }
+    
+    .plan__list li {
+        margin-left: 62px;
+    }
+    
+    
+}
+
+
+
+/* ============================== Card Start ========================================= */
+
+
+
+
+
+.card__link {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    display: flex;
+    position: relative;
+    margin-bottom: 48px;
+    transition: 0.5s;
+}
+
+
+.card__link:hover {
+    color:#333D4B;
+}
+
+.card__link:hover .card__span {
+    color: #0E8784;
+}
+
+
+
+.card__link::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -24px;
+    width: 255px;
+    height: 1px;
+    background: #83888F;
+}
+.card__span {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: 'Fraunces';
+    margin-right: 29px;
+    color: #83888F;
+    transition: 0.5s;
+}
+
+.card__link {
+    display: none;
+}
+
+.card__form-item {
+    margin-bottom: 110px;
+}
+
+
+.card__form-details {
+    transition: 0.5s;
+}
+
+
+.card__form-summary {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    color: #83888F;
+    margin-bottom: 32px;
+    transition: 0.5s;
+    list-style: none;
+    position: relative;
+    max-width: 240px;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+
+
+.card__form-info {
+    background: #F4F1EB;
+    border-radius: 8px;
+    padding: 24px;
+    cursor: pointer;
+    transition: 0.5s;
+    color: #333D4B;
+}
+
+.card__form-info:hover {
+    background: #FDD6BA
+    
+}
+
+.card__form-input:checked ~ .card__form-info{
+    background: #0E8784;
+    color:#fff;
+}
+
+
+.card__info-title {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 8px;
+}
+
+.card__info-text {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.card__form-label {
+    margin-bottom: 16px;
+    display:block;
+}
+
+.card__block-span {
+    display: inline-block;
+}
+
+.card__block-info {
+    max-width: 328px;
+    width: 100%;
+    background: #293039;
+    margin-bottom: 56px;
+    padding: 37px 25px 32px;
+    border-radius: 10px;
+}
+
+.card__block-title {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;    
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin-bottom: 8px;
+}
+
+.card__block-subtitle , .card__block-span {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.card__block-span {
+    color:#0E8784;
+}
+
+.card__block-btn {
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.card__form-summary::before {
+    width: 18px;
+    height: 12px;
+    background-image: url("../image/top.svg");
+    content: "";
+    position: absolute;
+    right:-50px;
+    top: 10px;
+    
+}
+
+.card__form-details[open] .card__form-summary::before{
+    transform: rotate(180deg);
+}
+
+
+
+/* ==================================== 375 px ================================== */
+
+
+@media only screen and (min-width: 375px) {
+    
+    .card__form-summary::before {
+        right: 10px;
+    }
+    
+    /* .card__form-info {
+        max-width: 400px;
+        width: 100%;
+    } */
+    
+    .card__form-summary {
+        max-width: none;
+        width: 100%;
+    }
+    
+    .card__form-summary {
+        font-size: 24px;
+    }
+    
+}
+
+
+/* ==================================== 410 px ================================== */
+
+
+@media only screen and (min-width: 410px) {
+    
+    .card__form-summary {
+        font-size: 28px;
+    }
+    
+    .card__form-summary::before {
+        right: 0;
+    }
+    
+}
+
+.card__form-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* ==================================== 430 px ================================== */
+
+
+@media only screen and (min-width: 430px) {
+    .card__form-summary {
+        font-size: 24px;
+    }
+    
+}
+
+
+/* ==================================== 448 px ================================== */
+
+
+@media only screen and (min-width: 448px) {
+    
+    
+    
+    
+    .card__info-text {
+        font-size: 18px;
+    }
+    
+}
+
+
+/* ==================================== 700 px ================================== */
+
+
+@media only screen and (min-width: 700px) {
+    
+    .card__form-box {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
+    .card__form-summary {
+        font-size: 32px;
+        line-height: 48px;
+    }
+    
+    .card__block-info {
+        max-width: 689px;
+        width: 100%;
+    }
+    
+    
+    .card__block-title {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    
+    .card__block-subtitle {
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 40px;
+    }
+    
+    .card__form-info {
+        max-width: 210px;
+        width: 100%;
+        height: 250px;
+    }
+    
+    .card__info-text {
+        font-size: 16px;
+    }
+    
+    .card__info-text-box {
+        width: 172px;
+        
+    }
+    
+    .card__info-title {
+        margin-bottom: 24px;
+    }
+    
+    .card__form-summary {
+        margin-bottom: 40px;
+    }
+}
+
+
+/* ==================================== 800 px ================================== */
+
+
+@media only screen and (min-width: 800px) {
+    
+    .card__form-info {
+        max-width: 250px;
+        width: 100%;
+    }
+    
+    
+    .card__block-info {
+        max-width: 730px;
+        width: 100%;
+    }
+    
+    
+}
+
+
+/* ==================================== 1000 px ================================== */
+
+
+@media only screen and (min-width: 1000px) {
+    
+    
+    .card__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .card__form-summary {
+        text-align: center;
+    }
+    
+    .card__link {
+        display: block;
+    }
+    
+    .card__form-box {
+        justify-content: flex-end;
+    }
+    
+    .card__form-label {
+        margin-left: 10px;
+    }
+    
+    .card__link {
+        display: flex;
+    }
+}
+
+
+
+/* ==================================== 1200 px ================================== */
+
+
+@media only screen and (min-width: 1200px) {
+    
+    .card__form-info {
+        max-width: 230px;
+        width: 100%;
+        height: 250px;
+    }
+    
+    .card__wrapper  {
+        justify-content:space-around;
+    }
+    
+    .card__form-box {
+        justify-content: start;
+    }
+    
+    
+    .card__form-summary {
+        text-align: start;
+        margin-left: 5px;
+    }
+    
+    .card__form-label {
+        margin-left: 0;
+        margin-right: 23px;
+    }
+    
+}
+
+/* ============================== Card END ========================================= */
+
+
+
+/* ============================== Modal Start ========================================= */
+
+
+.modal {
+    max-width: 327px;
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: 0.5s;
+    transform: translateY(-200%);
+    position: fixed;
+    top: 94px;
+    left: calc(50% - 164px);
+    z-index: 99;
+    transition: 1s;
+    margin: 0 auto;
+}
+
+.modal.owner {
+    transform: translateY(0%);
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    background:#000;
+    opacity: 0.6;
+    transition: 0.7s;
+    transform: translateY(-200%);
+}
+
+.overlay.owner {
+    transform: translateY(0%);
+}
+
+
+
+.modal__info {
+    padding: 0 24px 40px;
+    background: #FEFCF7;
+}
+
+
+.modal__info-title {
+    background: #333D4B;
+    color: #fff;
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 32px;
+    padding: 28px 24px 24px;
+}
+
+.modal__text {
+    color: #83888F;
+    padding-top: 40px;
+}
+
+.modal__info-text {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #333D4B;
+    opacity: 0.8;
+    margin-bottom: 24px;
+}
+
+
+.modal__info-button {
+    background-color: #0E8784;
+    border-radius: 6px;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color:#fff;
+    padding: 15px 32px;
+    transition: 0.5s
+}
+
+.modal__info-button:hover {   
+    background: #66D2CF;
+}
+
+.modal__checkout {
+    display: none;
+}
+
+
+/* ================================ 700 ===================================== */
+
+
+@media only screen and (min-width: 700px) {
+    
+    .modal__text {
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 40px;
+        color: #83888F;
+    }
+    
+    
+    .modal {
+        max-width: 540px;
+        width: 100%;
+        left: calc(50% - 255px);
+        top: 102px;
+    }
+    
+    .modal__info {
+        padding-left: 54px;
+        padding-right: 54px;
+    }
+    
+    .modal__info-title {
+        padding-left: 54px;
+    }
+    
+    .modal__info-button {
+        display: none;
+    }
+    
+    
+    .modal__checkout {
+        display: flex;
+        align-items: center;
+    }
+    
+    .modal__span {
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 36px;
+        color: #333D4B;
+        font-family: 'Fraunces';
+        margin-right: 13px;
+    }
+    
+    
+    .modal__info-check {
+        background: #0E8784;
+        border-radius: 6px;
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 25px;                
+        color: #FEFCF7;
+        padding: 15px 64px;
+        display: block;
+        transition: 0.5s;
+    }
+    
+    .modal__info-check:hover {
+        background: #66D2CF;
+    } 
+}
+
+
+/*  ================================= 1000 ============================== */
+
+
+@media only screen and (min-width: 1000px) {
+    
+    .card__block-btn {
+        margin-left: auto;
+    }
+}
+
+
+
+
+
+
+
+/* ============================== Modal END ========================================= */
+
+
+
 
 
 
